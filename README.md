@@ -5,6 +5,7 @@ A template for integrating React with Stdlib.
 Navigate into your stdlib workspace in the terminal.
 ```
 git clone https://github.com/JerryXie98/stdlib-react.git
+
 cd stdlib-react
 ```
 
@@ -14,11 +15,16 @@ The react component was created using [create-react-app](https://github.com/face
 To build the react app:
 ```
 cd react-app
-yarn start
+
+yarn install
+yarn build
 ```
 
 To deploy stdlib:
 ```
+cd ..
+
+yarn install
 lib up dev
 ```
 
